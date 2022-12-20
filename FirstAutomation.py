@@ -12,7 +12,7 @@ driver.find_element(By.ID, "email").send_keys("aslam@gmail.com")
 sleep(4)
 driver.find_element(By.NAME, "pass").send_keys("123456")
 sleep(5)
-driver.find_element(By.NAME, "login").click()
+
 sleep
 driver.close()
 
